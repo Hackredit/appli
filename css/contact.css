@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ColorWhite{
+  color: white;
+}
+
+/***** NAVBAR *****************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+.navbar{
+  background-color: #3F74F5;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.logo{
+  height: 80px;
+  width: auto;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.navbar button span{
+  background-color: white;
+}
+
+
+/***** FOOTER *****************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+
+  .debutFooter{
+    padding-top: 30px;
+  }
+
+  footer{
+  background: #2c3e50 ;
+   color: white;
+  }
+
+  .footer ul {
+     font-size: 13px;
+     list-style-type: none;
+  }
+
+  .footer ul li a {
+     padding: 0 0 5px 0;
+     display: block;
+  }
+
+  .social li {
+     background: none repeat scroll 0 0 #B5B5B5 ;
+     border: 2px solid #B5B5B5 ;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -o-border-radius: 50%;
+     -ms-border-radius: 50%;
+     border-radius: 50%;
+     display: inline-block;
+     height: 36px;
+     line-height: 36px;
+     margin: 0 10px 0 10px;
+     padding: 0;
+     text-align: center;
+     width: 36px;
+     transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+     -webkit-transition: all 0.5s ease 0s;
+     -ms-transition: all 0.5s ease 0s;
+     -o-transition: all 0.5s ease 0s;
+     list-style-type: none;
+
+  }
+
+  .social li:hover {
+     transform: scale(1.15) rotate(360deg);
+     -webkit-transform: scale(1.1) rotate(360deg);
+     -moz-transform: scale(1.1) rotate(360deg);
+     -ms-transform: scale(1.1) rotate(360deg);
+     -o-transform: scale(1.1) rotate(360deg);
+  }
+
+  .social li a {
+     color: #EDEFF1 ;
+  }
+
+  .social li:hover {
+     border: 2px solid #2c3e50 ;
+     background: #2c3e50 ;
+  }
+
+  .social li a i {
+     font-size: 16px;
+     margin: 0 0 0 5px;
+     color: #EDEFF1  !important;
+
+  }
+
+  #imgfooter1{
+   margin-top: 35px;
+   height: 90px;
+   width: 100px;
+  }
+
+  #imgfooter2{
+     margin-top: 35px;
+   height: 100px;
+   width: 200px;
+   color: #3F74F5 ;
+  }
+
+.finFooter{
+  padding-bottom: 30px;
+}
+/*------------------------------------Contact---------------------------------*/
+
+.titre{
+  margin-top: 80px;
+  color: #3f75F5;
+}
+
+.labelContact{
+  color: rgb(51,51,51);
+}
+
+.btn{
+  margin-bottom: 6%;
+  border: none;
+}
+
+.btn-success{
+  background-color: rgb(4, 132, 213);
+}
+
+.btn-success:hover{
+  background-color:#01579b;
+}
+
+.form-control:focus {
+  border-color: rgba(4, 132, 213, 0.6);
+  box-shadow: 0 0 4px rgba(4, 132, 213, 0.4);
+}
+
+.star-light{
+  width: 65%;
+}

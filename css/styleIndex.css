@@ -1,0 +1,404 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ColorWhite{
+  color: white;
+}
+
+/***** NAVBAR *****************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+.navbar{
+ background-color: #3F74F5 ;
+ border-radius: 0px;
+ margin-bottom: 0px;
+}
+
+.logo{
+ height: 80px;
+ width: auto;
+ margin-top: -8px;
+ margin-left: -8px;
+}
+
+.navbar button span{
+ background-color: white;
+}
+
+
+/***** TITRE *****************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+.BackGImg{
+  background-image: url("../images/Lesphares.jpeg");
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.Titre{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white;
+  font-family: "sun";
+  font-size: 4em;
+}
+@font-face {
+  font-family: "sun";
+  src : url("../fonts/A little sunshine.ttf");
+}
+
+
+
+
+/***** Itinéraire *************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+.marginTop5{
+  margin-top: 5%;
+}
+
+.divphoto{
+  max-width: 275px;
+  height: 350px;
+}
+
+.boutonperso{
+  color: #f6f6f6;
+	background: #3F74F5;
+	border: 0;
+	padding: 12px 24px;
+	margin: 0 8px;
+	font-size: 18px;
+	transition: all 0.5s;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.boutonperso:hover{
+  background: #1a5ca1;
+}
+
+/*** START-LIGHT-1 *********************************************/
+hr.star-light-1 {
+ border-color: black;
+}
+
+.JrnMarine{
+  transition: all 1s;
+  background-image: url("../images/JrnMarine.png");
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 15%;
+
+}
+
+.JrnMarine:hover{
+  transition: all 1s;
+  background-image: url("../images/Iti_type.png");
+  margin: auto;
+}
+
+hr.star-light-1, hr.star-primary {
+ padding: 0;
+ border: none;
+ border: .5px solid black;
+ text-align: center;
+ max-width: 300px;
+ margin: 25px auto 30px;
+ border-radius: 5px;
+ background-color: white;
+ font-size: 10px;
+}
+
+hr.star-light-1::after{
+ background-color: inherit;
+ color: black;
+}
+
+hr.star-light-1::after, hr.star-primary::after{
+ content: "Journée Marine";
+ font-family: "sun";
+ display: inline-block;
+ position: relative;
+ top: -.8em;
+ font-size: 3em;
+ padding: 0 .25em;
+}
+
+/*** START-LIGHT-2 *********************************************/
+hr.star-light-2 {
+ border-color: black;
+}
+
+.JrnCulturelle{
+  background-image: url("../images/JrnCulturelle.png");
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 15%;
+  transition: all 1s;
+}
+
+.JrnCulturelle:hover{
+  background-image: url("../images/Iti_type.png");
+  margin: auto;
+  transition: all 1s;
+}
+
+hr.star-light-2, hr.star-primary {
+ padding: 0;
+ border: none;
+ border: .5px solid black;
+ text-align: center;
+ max-width: 300px;
+ margin: 25px auto 30px;
+ border-radius: 5px;
+ background-color: white;
+ font-size: 10px;
+}
+
+hr.star-light-2::after{
+ background-color: inherit;
+ color: black;
+}
+
+hr.star-light-2::after, hr.star-primary::after{
+ content: "Journée Culturelle";
+ font-family: "sun";
+ display: inline-block;
+ position: relative;
+ top: -.8em;
+ font-size: 3em;
+ padding: 0 .25em;
+}
+/*** START-LIGHT-3 *********************************************/
+hr.star-light-3 {
+ border-color: black;
+}
+
+.JrnBalade{
+  background-image: url("../images/JrnBalade.png");
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 15%;
+  transition: all 1s;
+}
+
+.JrnBalade:hover{
+  background-image: url("../images/Iti_type.png");
+  margin: auto;
+  transition: all 1s;
+}
+
+hr.star-light-3, hr.star-primary {
+ padding: 0;
+ border: none;
+ border: .5px solid black;
+ text-align: center;
+ max-width: 300px;
+ margin: 25px auto 30px;
+ border-radius: 5px;
+ background-color: white;
+ font-size: 10px;
+}
+
+hr.star-light-3::after{
+ background-color: inherit;
+ color: black;
+}
+
+hr.star-light-3::after, hr.star-primary::after{
+ content: "Journée Balades";
+ font-family: "sun";
+ display: inline-block;
+ position: relative;
+ top: -.8em;
+ font-size: 3em;
+ padding: 0 .25em;
+}
+
+/*** START-LIGHT-4 *********************************************/
+hr.star-light-4{
+ border-color: black;
+}
+
+hr.star-light-4, hr.star-primary {
+ padding: 0;
+ border: none;
+ border: .5px solid black;
+ text-align: center;
+ max-width: 300px;
+ margin: 25px auto 30px;
+ border-radius: 5px;
+ background-color: white;
+ font-size: 10px;
+}
+
+hr.star-light-4::after{
+ background-color: inherit;
+ color: black;
+}
+
+hr.star-light-4::after, hr.star-primary::after{
+ content: "Journée Personnalisable";
+ font-family: "sun";
+ display: inline-block;
+ position: relative;
+ top: -.8em;
+ font-size: 3em;
+ padding: 0 .25em;
+}
+/*** PHOTOS *************************************************/
+.divphoto2{
+  max-width: 200px;
+  height: 100px;
+  margin-bottom: 35%;
+}
+
+.photo1{
+  background-image: url("../images/JrnBalade.png");
+  background-size: cover;
+}
+
+.photo2{
+  background-image: url("../images/JrnMarine.png");
+  background-size: cover;
+}
+
+.photo3{
+  background-image: url("../images/JrnCulturelle.png");
+  background-size: cover;
+}
+
+.photo4{
+  background-image: url("../images/fleurdesel.jpg");
+  background-size: cover;
+}
+
+.photo5{
+  background-image: url("../images/crypte.jpg");
+  background-size: cover;
+}
+
+.photo6{
+  background-image: url("../images/basil.jpeg");
+  background-size: cover;
+}
+
+/***** DESCRIPTION *****************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+.backGImgDescription{
+  background-image: url("../images/crypte.jpg");
+  background-size: cover;
+}
+
+.divWhite{
+  background-color: rgba(244, 244, 244, 0.66);
+  margin-top: 190px;
+  padding: 1%;
+  color: #01579b;
+  font-size: 16px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.divWhite h3{
+  font-family: "sun";
+  font-size: 3em;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+/***** FOOTER *****************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+.debutFooter{
+  padding-top: 30px;
+}
+
+footer{
+background: #2c3e50 ;
+ color: white;
+}
+
+.footer ul {
+   font-size: 13px;
+   list-style-type: none;
+}
+
+.footer ul li a {
+   padding: 0 0 5px 0;
+   display: block;
+}
+
+.social li {
+   background: none repeat scroll 0 0 #B5B5B5 ;
+   border: 2px solid #B5B5B5 ;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -o-border-radius: 50%;
+   -ms-border-radius: 50%;
+   border-radius: 50%;
+   display: inline-block;
+   height: 36px;
+   line-height: 36px;
+   margin: 0 10px 0 10px;
+   padding: 0;
+   text-align: center;
+   width: 36px;
+   transition: all 0.5s ease 0s;
+   -moz-transition: all 0.5s ease 0s;
+   -webkit-transition: all 0.5s ease 0s;
+   -ms-transition: all 0.5s ease 0s;
+   -o-transition: all 0.5s ease 0s;
+   list-style-type: none;
+
+}
+
+.social li:hover {
+   transform: scale(1.15) rotate(360deg);
+   -webkit-transform: scale(1.1) rotate(360deg);
+   -moz-transform: scale(1.1) rotate(360deg);
+   -ms-transform: scale(1.1) rotate(360deg);
+   -o-transform: scale(1.1) rotate(360deg);
+}
+
+.social li a {
+   color: #EDEFF1 ;
+}
+
+.social li:hover {
+   border: 2px solid #2c3e50 ;
+   background: #2c3e50 ;
+}
+
+.social li a i {
+   font-size: 16px;
+   margin: 0 0 0 5px;
+   color: #EDEFF1  !important;
+
+}
+
+#imgfooter1{
+ margin-top: 35px;
+ height: 90px;
+ width: 100px;
+}
+
+#imgfooter2{
+   margin-top: 35px;
+ height: 100px;
+ width: 200px;
+ color: #3F74F5 ;
+}
+
+.finFooter{
+padding-bottom: 30px;
+}
